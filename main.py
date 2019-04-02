@@ -29,6 +29,6 @@ while height<=150:
 fruit = []
 add_sphere(fruit, 250, 205, 0, 50, 20)
 add_box(bowl, 245, -100, -5, 10, 250, 10)
-parse_file('script2', fruit, transform, screen2, color3)
-parse_file('script2', bowl, transform, screen2, color2)
+parse_file('script2', edges, fruit, transform, screen2, color3)
+parse_file('script2', edges, bowl, transform, screen2, color2)
 save_extension(screen2, 'bowl.png')
