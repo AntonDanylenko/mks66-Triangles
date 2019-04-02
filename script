@@ -49,6 +49,8 @@ move
 250 250 0
 apply
 display
+save
+temp.png
 #clear the edge matrix, test torus
 clear
 torus
